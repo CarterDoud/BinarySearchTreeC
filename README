@@ -1,0 +1,42 @@
+***************************
+Carter Doud
+0931608
+CIS 2520
+Assignment 4
+***************************
+
+***************************
+Description
+***************************
+This assignment implements a personal assistant using a binary search tree. The program reads a data file with rules containing keywords and responses.
+The program can add/remove and modify rules.
+The program will respond to questions based upon the level of significance of words in the question.
+
+***************************
+Running Program
+***************************
+
+To compile the program, navigate to the main directory for the assignment and use the command "make"
+To run the program, use the command "./bin/program <INPUT FILE>" where <INPUT FILE> is a properly formatted text document
+A sample file has been included in the docs directory
+To compile the test program, navigate to the main directory for the assignment and use the command "make test"
+To run the test program, use the command "./bin/testing"
+
+***************************
+Testing
+***************************
+The test program tests the tree with normal values.
+
+***************************
+Limitations
+***************************
+getHeight function considers null nodes as having 0 height, and the leafs as 1. Some height algorithims work with this principle, some treat leafs as having height 0.
+input is case sensitive
+does not allow for duplicate keywords
+output format isn't perfect
+
+***************************
+Personalization
+***************************
+Recursive functions were added to perform tree functions. The API calls in this assignment do not enable the use of reccursion normally.
+The API calls merely call the recursive functions.
