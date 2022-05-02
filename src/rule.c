@@ -1,7 +1,5 @@
 /**
  * @file rule.c
- * @author Carter Doud
- * @date November 2017
  * @brief File containing the functions for a rule
  */
 
