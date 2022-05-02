@@ -1,7 +1,5 @@
 /**
  * @file BinarySearchTreeAPI.c
- * @author Carter Doud
- * @date November 2017
  * @brief File containing the function definitions for a binary search tree
  */
 #include "BinarySearchTreeAPI.h"
