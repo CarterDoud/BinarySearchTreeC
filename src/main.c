@@ -1,6 +1,5 @@
 /**
  * @file main.c
- * @author Carter Doud
  * @date November 2017
  * @brief Assignment 4, chat bot/ personal assistant. Uses binary search trees to implement a chat bot
  */
